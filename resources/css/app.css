@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.bg-custom {
+    background-image: url('/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
